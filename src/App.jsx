@@ -1,7 +1,7 @@
 import { useState } from 'react'; // Importing useState hook from React
 import './App.css';
-import TodoList from './TodoList'; // Importing TodoList component
-import TodoForm from './TodoForm'; // Importing TodoForm component
+import TodoList from './features/TodoList/TodoList'; // Importing TodoList component
+import TodoForm from './features/TodoForm'; // Importing TodoForm component
 
 function App() {
   const [todoList, setTodoList] = useState([]); // State to hold the list of todos
